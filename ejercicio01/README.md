@@ -24,6 +24,8 @@ Determinar si la imagen esta lista y buscar la imagen e01-nginx
 
 `docker ps`
 
+Ejecutar en el browser 
 
+`http://localhost:9000/ o curl http://localhost:9000/`
 
 
