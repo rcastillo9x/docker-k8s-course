@@ -7,7 +7,7 @@ nicopaez/passwordapi-java:java8-alpine y nicopaez/passwordapi-java:java8-fabric.
 Crear una carpeta "ejercicio03" en tu repositorio y escribe tus respuesta en un archivo README.md dentro de esa carpeta. Entrega el link a dicho archivo.
 Pista: puedes utilizar el comando "docker inspect" o la herramienta dive (https://github.com/wagoodman/dive)
 
-
+## Ejercicio 03 - Resolución
 La imagen nicopaez/passwordapi-java:java8-fabric 
 
 tiene 17 capas
