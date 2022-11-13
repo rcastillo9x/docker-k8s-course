@@ -16,16 +16,14 @@ de tu repositorio Github y entrega en el classroom el link directo a la misma.
 
 ## Ejercicio 01 - Comandos
 
-Para construir la imagen
+Hacer Pull de la imagen
 
-`docker build -t nginx-e01 -f nginx.dockerfile .`
+`docker run -p 9000:80 --name e01-nginx -v html:/usr/share/nginx/html:ro -d nginx`
 
-Determinar si la imagen esta lista
+Determinar si la imagen esta lista y buscar la imagen e01-nginx
 
-`docker images nginx-e01`
+`docker ps`
 
-Ejecutar la nueva imagen por el puerto 9000 
 
-`docker run -p 9000:80 -d -v html:/usr/share/nginx/html nginx-e01 `
 
 
