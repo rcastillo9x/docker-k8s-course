@@ -29,5 +29,5 @@ Enviar la imagen a docker hub
 
 `docker push rcastillo3x/course-e04:course-e04-webapp`
 
-[Enlace final](https://hub.docker.com/repository/docker/rcastillo3x/course-e04)
+[Imagen en Docker hub](https://hub.docker.com/repository/docker/rcastillo3x/course-e04)
 
