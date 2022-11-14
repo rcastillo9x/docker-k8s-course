@@ -1,4 +1,4 @@
-# Ejercicio 03 - Consigna
+# Ejercicio 04 - Consigna
 Adjunto hay un archivo .jar que tiene la aplicación PasswordApi.
 Esa aplicación es una aplicación Java que se ejecuta con el comando: java -jar passwordapi.jar. Eso levanta una webapi en el puerto 8080 (ver captura de pantalla).
 Lo que se pide es generar una imagen Docker que corra esa aplicación. Más concretamente lo que hay que hacer es:
@@ -10,7 +10,7 @@ Resolver el ejercicio en un directorio "ejercicio04" del repositorio personal.
 Mencionar en el readme el link a la imagen publicada en dockerhub
 Entregar el link a la carpeta del repositorio github.
 
-## Ejercicio 03 - Resolución
+## Ejercicio 04 - Resolución
 
 Construir la imagen
 
