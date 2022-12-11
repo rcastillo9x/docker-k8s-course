@@ -1,7 +1,7 @@
 # 
 # Levantar imagen con jar 
 #
-FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk/openjdk8
 
 VOLUME /tmp
 COPY assets/passwordapi.jar app.jar

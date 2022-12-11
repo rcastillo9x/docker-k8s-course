@@ -14,20 +14,20 @@ Entregar el link a la carpeta del repositorio github.
 
 Construir la imagen
 
-`docker build -t course-e04:webapp -f webapp.Dockerfile .`
+`docker build -t class4:webapp -f webapp.Dockerfile .`
 
 Probar que la imagen funciona localmente
 
-`docker run -p 8080:8080 course-e04:webapp`
+`docker run -p 8080:8080 -t class4:webapp`
 
 Visitar http://localhost:8080/swagger-ui.html
 
 Taggear la imagen
-`docker tag course-e04:webapp rcastillo3x/course-e04:course-e04-webapp`
+`docker tag class4:webapp rcastillo3x/course-e04:class4-webapp`
 
 Enviar la imagen a docker hub
 
-`docker push rcastillo3x/course-e04:course-e04-webapp`
+`docker push rcastillo3x/course-e04:class4-webapp`
 
 [Imagen en Docker hub](https://hub.docker.com/repository/docker/rcastillo3x/course-e04)
 
