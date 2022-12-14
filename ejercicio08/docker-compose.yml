@@ -41,4 +41,3 @@ services:
 
 networks:
   net-e08:
-    external: true
